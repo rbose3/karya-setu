@@ -14,7 +14,7 @@ config();
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: "https://karya-setu-jfsdfui1l-rbose3s-projects.vercel.app",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
