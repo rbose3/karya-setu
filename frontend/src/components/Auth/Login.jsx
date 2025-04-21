@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://karya-setu.onrender.com/api/v1/user/login",
+        "https://karya-setu.onrender.com/api/v1/user/login",
         { email, password, role },
         {
           headers: {
